@@ -1,6 +1,5 @@
 body {
   font-family: "Montserrat";
-  text-align: center;
 }
 
 #title {
@@ -8,10 +7,21 @@ body {
   color: #fff;
 }
 
-h1, h2, h3 {
-  font-family: "Montserrat-Bold";
+h1 {
+  font-family: "Montserrat";
   font-size: 3.5rem;
   line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  text-align: center;
 }
 
 .container-fluid {
@@ -118,4 +128,21 @@ p {
 
 .pricing-column {
   padding: 2% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  padding-top: 100px;
+  background-color: #ff4c68;
+text-align: center;
 }
